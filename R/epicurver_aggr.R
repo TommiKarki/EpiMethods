@@ -42,7 +42,7 @@ epicurver_aggr <- function(data,
                       xvar,
                       yvar,
                       group = NULL,
-                      col_scale = c("qualitative", "green", "blue", "red"),
+                      col_scale = "qualitative",
                       border = NA,
                       xtitle = "Time",
                       legend_title = group,
@@ -53,7 +53,7 @@ epicurver_aggr <- function(data,
   yvar <- deparse(substitute(yvar))
   group <- deparse(substitute(group))
   x_axis_ticks <- match.arg(x_axis_ticks)
-  col_scale <- match.arg(col_scale)
+  # col_scale <- match.arg(col_scale)
   if(group == yvar){
   FIGBREAKS <- pretty(seq(0, max(data[[yvar]]),
                            by = max(data[[yvar]])/5))
