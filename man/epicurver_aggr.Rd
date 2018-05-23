@@ -4,10 +4,10 @@
 \alias{epicurver_aggr}
 \title{Epicurver for aggregated data}
 \usage{
-epicurver_aggr(data, xvar, yvar, group = NULL, col_scale = c("qualitative",
-  "green", "blue", "red"), border = NA, xtitle = "Time",
-  legend_title = group, x_axis_ticks = c(NULL, "days", "2 days", "weeks",
-  "2 weeks", "months", "years"), x_axis_limits = NULL)
+epicurver_aggr(data, xvar, yvar, group = NULL, col_scale = "qualitative",
+  border = NA, xtitle = "Time", legend_title = group,
+  x_axis_ticks = c(NULL, "days", "2 days", "weeks", "2 weeks", "months",
+  "years"), x_axis_limits = NULL)
 }
 \arguments{
 \item{data}{Your data frame.}

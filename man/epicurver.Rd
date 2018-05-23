@@ -5,9 +5,9 @@
 \title{Epicurver}
 \usage{
 epicurver(data, xvar, yvar, group = NULL, squares = TRUE, ymax = NULL,
-  xtitle = "Time", legend_title = group, col_scale = c("qualitative",
-  "green", "blue", "red"), border = "white", x_axis_ticks = c("days",
-  "2 days", "weeks", "2 weeks", "months", "years"), x_axis_limits = NULL)
+  xtitle = "Time", legend_title = group, col_scale = "qualitative",
+  border = "white", x_axis_ticks = c("days", "2 days", "weeks", "2 weeks",
+  "months", "years"), x_axis_limits = NULL)
 }
 \arguments{
 \item{data}{Your data frame/line list.}
