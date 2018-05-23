@@ -77,7 +77,7 @@ epicurver <- function(data,
                       ymax = NULL,
                       xtitle = "Time",
                       legend_title = group,
-                      col_scale = c("qualitative", "green", "blue", "red"),
+                      col_scale = "qualitative",
                       border = "white",
                       x_axis_ticks = c("days", "2 days", "weeks", "2 weeks", "months", "years"),
                       x_axis_limits = NULL) {
@@ -93,7 +93,7 @@ epicurver <- function(data,
     stop()}
   if(squares == TRUE){
   x_axis_ticks <- match.arg(x_axis_ticks)
-  col_scale <- match.arg(col_scale)
+  # col_scale <- match.arg(col_scale)
   if(!is.null(ymax)){
   if(ymax < 5){
   FIGBREAKS <- seq(0, ymax, by = 1)
