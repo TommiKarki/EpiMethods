@@ -29,7 +29,7 @@ full_summary <-
   function(data, useNA="always", table_max_cat=5) {
   z <- 1
   for(u in seq.int(1, ceiling(ncol(data)/5), by=1)){
-    zx <- z+5
+    zx <- z+4
     if(zx > ncol(data)){
       zx <- ncol(data)
     }
