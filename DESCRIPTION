@@ -1,0 +1,11 @@
+Package: EpiMethods
+Title: ECDC surveillance colours, epicurver and misc helper functions
+Version: 0.0.0.9000
+Authors@R: person("Tommi", "Karki", email = "tommi.karki@ecdc.europa.eu", role = c("aut", "cre"))
+Description: ECDC surveillance colours, epicurver and misc helper functions.
+Depends: R (>= 3.4.0),
+	ggplot2
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
