@@ -1,5 +1,5 @@
 Package: EpiMethods
-Title: ECDC surveillance colours, epicurver and misc helper functions
+Title: Epicurver and misc helper functions
 Version: 0.0.0.9000
 Authors@R: person("Tommi", "Karki", email = "tommi.karki@ecdc.europa.eu", role = c("aut", "cre"))
 Description: ECDC surveillance colours, epicurver and misc helper functions.
