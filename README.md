@@ -1,2 +1,2 @@
 # EpiMethods
-Surveillance guideline colours, epicurve, miscellaneous helper functions
+Epicurve, miscellaneous helper functions
